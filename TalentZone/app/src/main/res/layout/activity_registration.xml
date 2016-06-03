@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iti.ahmed.talentzone.Registration"
+    android:background="@drawable/bg"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/edFirstName"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/edlastName"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:id="@+id/edMobile"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/edPass"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            />
+
+
+
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:background="#b00721"
+                android:textColor="#ffffff"
+                android:id="@+id/btNext"
+                />
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook "
+                android:background="#0000ff"
+                android:textColor="#ffffff"
+                />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
